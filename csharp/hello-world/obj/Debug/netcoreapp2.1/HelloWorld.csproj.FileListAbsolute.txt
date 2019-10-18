@@ -1,0 +1,13 @@
+/home/kanghuaroo/exercism/csharp/hello-world/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/kanghuaroo/exercism/csharp/hello-world/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/home/kanghuaroo/exercism/csharp/hello-world/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/home/kanghuaroo/exercism/csharp/hello-world/bin/Debug/netcoreapp2.1/HelloWorld.deps.json
+/home/kanghuaroo/exercism/csharp/hello-world/bin/Debug/netcoreapp2.1/HelloWorld.runtimeconfig.json
+/home/kanghuaroo/exercism/csharp/hello-world/bin/Debug/netcoreapp2.1/HelloWorld.runtimeconfig.dev.json
+/home/kanghuaroo/exercism/csharp/hello-world/bin/Debug/netcoreapp2.1/HelloWorld.dll
+/home/kanghuaroo/exercism/csharp/hello-world/bin/Debug/netcoreapp2.1/HelloWorld.pdb
+/home/kanghuaroo/exercism/csharp/hello-world/obj/Debug/netcoreapp2.1/HelloWorld.csprojAssemblyReference.cache
+/home/kanghuaroo/exercism/csharp/hello-world/obj/Debug/netcoreapp2.1/HelloWorld.AssemblyInfoInputs.cache
+/home/kanghuaroo/exercism/csharp/hello-world/obj/Debug/netcoreapp2.1/HelloWorld.AssemblyInfo.cs
+/home/kanghuaroo/exercism/csharp/hello-world/obj/Debug/netcoreapp2.1/HelloWorld.dll
+/home/kanghuaroo/exercism/csharp/hello-world/obj/Debug/netcoreapp2.1/HelloWorld.pdb
