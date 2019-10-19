@@ -1,0 +1,12 @@
+README.md
+
+c#-files
+*Test.cs
+*.csproj
+*/bin
+*/obj
+
+python-files
+__pychache__
+*test.py
+*.pyc
