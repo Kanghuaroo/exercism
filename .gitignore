@@ -1,3 +1,7 @@
+.editorconfig
+.exercism
+.chache
+
 c#-files
 *Test.cs
 *.csproj
