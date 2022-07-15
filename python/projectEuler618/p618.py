@@ -46,9 +46,14 @@ def S(seqNum):
         if p == curr:
             nums.add(p)
         else:
+            #TODO - Something is wrong here
+            #Do upper and lower; sum up to p and curr - p; 
             nums = nums.union(findPrimeFactorSum(curr, p))
-            #temp = findPrimeFactorSum(curr, p)
-            #print(temp)
+            nums = nums.union(findPrimeFactorSum(curr, curr-p))
+            temp = findPrimeFactorSum(curr, p)
+            temp = temp.union(findPrimeFactorSum(curr, curr-p))
+            print(p)
+            print(temp)
             #nums = nums.union(temp)
     
     seen[fibs[seqNum]] = nums
@@ -82,20 +87,26 @@ def findPrimeFactorSum(num, p):
     
     return output
 
+def setup():
+    #set global var
+    for i in range(12): 
+        fibs.append(fib(i))
+    findPrimeFactors(fibs[-1])
+
 def main():
-    for i in range(12):
+    for i in range(12): 
         fibs.append(fib(i))
     #set global var
     findPrimeFactors(fibs[-1])
     
 
     
-    print(S(5))
-    print(S(6))
-    print(S(7))
-    print(S(8))   # should be 25681
-    #print(S(9)) 
-    print(fibs[8])
+    S(5)
+    S(6)
+    S(7)
+    #S(8)   # 21; should be 25681
+    print(S(8))
+    #S(9) #34; should be 6595481
     
     print()
     nums = set()
@@ -105,7 +116,6 @@ def main():
     for i in prev1:
         for j in prev2:
             nums.add(i*j)
-    print(nums)
     print(seen[21].difference(nums))
 
 primes = list()
