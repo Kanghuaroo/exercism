@@ -1,6 +1,10 @@
 .editorconfig
 .exercism
 .chache
+README.md
+HELP.md
+makefile
+*test*
 
 c#-files
 *Test.cs
