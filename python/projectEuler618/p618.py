@@ -28,6 +28,20 @@ def findPrimeFactorInterval(curr, prev):
             p.append(i)
     return p
 
+def d(num):
+    if num == 0:
+        return 1
+    elif num < 0:
+        return 0
+
+    interval = findPrimeFactorInterval(num, 1)
+    curr = 0
+
+    for p in interval:
+        curr += d(num-p) * p
+
+    return curr
+
 def S(seqNum):
     nums = set()
     curr = fibs[seqNum]
